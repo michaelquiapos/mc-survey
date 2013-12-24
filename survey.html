@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <title>The Launch Lens | Merchant and Consumer Role Analysis</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/ladda.min.css">
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+    <script type="text/javascript">
+        function btnMerchant(){
+            window.location='https://michaelquiapos.typeform.com/to/QCsYWA';
+        }
+        function btnConsumer(){
+            window.location='https://michaelquiapos.typeform.com/to/ZyEAgu';
+        }
+    </script>
+</head>
+<body>
+    <h1>The Launch Lens</h1>
+    <!-- SQUARE BUTTONS -->
+    <article class="panel-container">
+        <h3>Please select your role from the buttons below:</h3>
+        <section>
+            <button class="ladda-button" data-color="caution" onclick="btnMerchant();">The&nbsp; <strong>Merchant</strong></button>
+        </section>
+        <section >
+            <button class="ladda-button" data-color="mint" onclick="btnConsumer();">The&nbsp; <strong>Consumer</strong></button>
+        </section>
+    </article>
+
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/buttons.js"></script>
+
+    <script src="assets/dist/spin.min.js"></script>
+    <script src="assets/dist/ladda.min.js"></script>
+    <script>
+        Ladda.bind( '.progress button', {
+            callback: function( instance ) {
+                var progress = 0;
+                var interval = setInterval( function() {
+                    progress = Math.min( progress + Math.random() * 0.1, 1 );
+                    instance.setProgress( progress );
+
+                    if( progress === 1 ) {
+                        instance.stop();
+                        clearInterval( interval );
+                    }
+                }, 200 );
+            }
+        } );
+    </script>
+    <!-- Google Analytics -->
+    <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-46664495-2');ga('send','pageview');
+    </script>
+</body>
+</html>

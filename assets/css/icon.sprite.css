@@ -1,0 +1,52 @@
+/*
+Author: Michael Quiapos
+Author URI: http://michaelquiapos.com
+Version: 0.0.1
+Project: MACH02
+Source: C:\xampp\htdocs\mach2\assets\images\sprite
+Description: This is a sprite map
+*/
+.icon-member {
+  display: inline-block;
+  overflow: hidden;
+  text-indent: -999px;
+}
+.icon-member.space {
+  width: 18px; height: 20px;
+}
+.icon-member.icon-account {
+  background: url(../images/sprite/icon-account.gif);
+  width: 25px; height: 25px; background-position: -0px -0px;
+}
+.icon-member.icon-chevron-list-down {
+  background: url(../images/sprite/icon-chevron-list-down.gif);
+  width: 25px; height: 25px; background-position: -32px -0px;
+}
+.icon-member.icon-chevron-list-right {
+  background: url(../images/sprite/icon-chevron-list-right.gif);
+  width: 25px; height: 25px; background-position: -64px -0px;
+}
+.icon-member.icon-chevron-menu {
+  background: url(../images/sprite/icon-chevron-menu.gif);
+  width: 25px; height: 25px; background-position: -96px -0px;
+}
+.icon-member.icon-logout {
+  background: url(../images/sprite/icon-logout.gif);
+  width: 25px; height: 25px; background-position: -128px -0px;
+}
+.icon-member.icon-report {
+  background: url(../images/sprite/icon-report.gif);
+  width: 25px; height: 25px; background-position: -159px -0px;
+}
+.icon-member.icon-search {
+  background: url(../images/sprite/icon-search.gif);
+  width: 25px; height: 25px; background-position: -191px -0px;
+}
+.icon-member.icon-test {
+  background: url(../images/sprite/icon-test.gif);
+  width: 15px; height: 25px; background-position: -223px -0px;
+}
+.icon-member.icon-user {
+  background: url(../images/sprite/icon-user.gif);
+  width: 14px; height: 25px; background-position: -255px -0px;
+}
